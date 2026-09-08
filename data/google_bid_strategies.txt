@@ -1,0 +1,21 @@
+SOURCE_URL: https://jyll.ca/insidegoogleads/77
+SOURCE_TITLE: Inside Google Ads Podcast, Episode 77 - Every Bid Strategy Explained (Jyll Saskin Gales)
+NOTE: Paraphrased summary of key concepts, not a verbatim transcript.
+
+---
+
+Google Ads groups bid strategies into four categories: conversion-based (also called Smart Bidding), click-based, view-based, and impression-based, depending on what result the advertiser is optimizing for.
+
+Maximize Conversions is typically the starting strategy for a new campaign. It spends the full daily budget in order to generate as many conversions as possible, using contextual signals available at auction time to decide how much to bid for each individual user, rather than using one fixed bid for everyone.
+
+Target CPA is a related strategy where the advertiser sets a desired cost per acquisition, and the system tries to get as many conversions as possible while averaging out to that target cost. Unlike Maximize Conversions, which always spends the full budget, a Target-based strategy will hold back spend if the system does not believe it can hit the target efficiency.
+
+Maximize Conversion Value and Target ROAS work similarly to the two strategies above, but optimize for the total value of conversions rather than treating every conversion as equal. Target ROAS aims for a set return on ad spend, meaning a ratio of revenue generated to money spent, rather than a fixed cost per result.
+
+Manual CPC is the fully manual approach, where the advertiser sets the maximum they are willing to pay per click and no automated system adjusts it. The actual price paid in an auction can be lower than this maximum, since it is still an auction against other advertisers, but it will never be bid higher than the set maximum.
+
+A general pattern across nearly all automated bid strategies is that they aim to average out to a target value over many auctions, rather than hitting that exact value on every single auction - some individual auctions will cost more, others less, balancing out over time.
+
+Large or sudden changes to a bid strategy or target value are generally discouraged, since automated bidding systems need a learning period to adjust to a new target, and switching too frequently can disrupt performance before the system has time to stabilize around the new setting.
+
+Choosing between a "maximize" strategy and a "target" strategy is often a matter of campaign maturity - maximize-style strategies are commonly used early on to gather performance data, with a transition to a target-based strategy once there is enough conversion history for the system to optimize toward a specific efficiency goal.

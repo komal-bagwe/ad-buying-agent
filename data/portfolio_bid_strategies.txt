@@ -1,0 +1,19 @@
+SOURCE_URL: user-provided-notebooklm-video-summary
+SOURCE_TITLE: Portfolio Bid Strategies in Google Ads - video notes (source video unspecified)
+NOTE: Notes summarizing a YouTube video, provided by the project owner via NotebookLM.
+
+---
+
+Portfolio bid strategies optimize bids across multiple campaigns at once to achieve a single shared goal, such as a shared target Return on Ad Spend or a shared target Cost Per Acquisition, rather than managing each campaign's bid independently. They are supported for Target CPA, Target ROAS, Maximize Clicks, Maximize Conversion Value, Maximize Conversions, and Target Impression Share.
+
+A shared budget can be linked to a portfolio bid strategy, which keeps the daily budget contained across all the campaigns included in that strategy rather than each campaign having its own separate cap. If a campaign is later removed from a shared budget portfolio, it must be assigned its own individual daily budget.
+
+Standalone bidding strategies applied to a single campaign do not allow setting a maximum CPC bid limit, but portfolio bid strategies unlock an option to set a maximum CPC bid limit across the whole group. This prevents the automated bidding system from placing an unexpectedly expensive bid that could consume the budget quickly. This bid limit does not apply to display-only campaigns.
+
+When using Maximize Conversions as a portfolio strategy, it is recommended to also set a target CPA and a maximum CPC limit to keep average click costs under control, since Maximize Conversions alone will spend the full budget without an explicit efficiency target.
+
+When using Maximize Conversion Value, a maximum CPC bid limit will not actually be enforced unless a target ROAS is also explicitly set alongside it.
+
+Target Impression Share, aimed at keeping ads visible at the top of the results page, works well for brand-visibility goals. A high impression share target can be paired with a maximum CPC cap to control cost while still prioritizing visibility.
+
+A significant limitation is that mixing different campaign types, such as combining Search campaigns with Shopping or Display campaigns, into a single portfolio bid strategy can cause setup errors. It is recommended to group only the same campaign type together within a single portfolio bid strategy to avoid this.

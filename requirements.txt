@@ -1,0 +1,8 @@
+fastapi==0.115.6
+uvicorn==0.34.0
+groq==0.15.0
+qdrant-client==1.13.2
+python-dotenv==1.0.1
+cohere==5.13.12
+streamlit==1.40.1
+pandas==2.2.3

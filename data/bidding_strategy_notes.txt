@@ -1,0 +1,20 @@
+SOURCE_URL: synthesized-from-public-rtb-explainers
+SOURCE_TITLE: Bidding Strategy Notes (paraphrased from MonetizeMore, Publift, StackAdapt, Wikipedia)
+
+---
+
+Real-time bidding is an automated auction process where advertisers bid on individual ad impressions within milliseconds, as a webpage loads. Most ad exchanges use a second-price auction, meaning the winning advertiser pays just above the second-highest bid, not their own full bid amount.
+
+A campaign that bids far above the typical market price for its ad slots will usually win a high share of auctions, but the extra spend often does not translate into proportionally more conversions, since winning an auction only guarantees the ad is shown, not that the viewer is interested. This mismatch tends to drive cost per acquisition higher without a matching increase in results.
+
+A campaign that bids well below the typical market price will lose most auctions, spend very little, and generate very few impressions or conversions. While the cost per click may look efficient on paper, the low volume often means the campaign is not worth running at that bid level, since it barely reaches any audience.
+
+Campaigns generally perform most efficiently when the bid is set close to the market's average competing price for similar ad inventory, since this captures a reasonable share of available impressions without significantly overpaying for each one.
+
+Large, sudden bid changes can create unstable campaign performance, since ad exchanges and their algorithms need time to adjust delivery patterns to a new bid level. Gradual adjustments tend to produce steadier, more predictable results than large one-time jumps.
+
+Click-through rate and conversion rate are generally properties of the ad creative, targeting, and audience match, not the bid amount itself. Raising a bid increases the chance of winning an auction and being shown, but does not by itself make a viewer more likely to click or convert.
+
+Daily budget caps cause a campaign to stop bidding for the remainder of the day once exhausted. A campaign that wins auctions very quickly early in the day due to an aggressive bid may exhaust its budget before reaching its full potential audience for that day, reducing total daily conversions compared to a more evenly paced bid.
+
+Cost per acquisition is generally considered the most important efficiency metric for a bidding campaign, since it reflects how much is actually being spent to generate real business results, rather than just how many auctions are being won or how much traffic is being driven.
